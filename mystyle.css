@@ -1,0 +1,248 @@
+html{
+	margin: 0;
+	padding: 10px;
+	font-family: sans-serif;
+	background-color: rgb(217, 229, 233);
+}
+body{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	color: midnightblue;
+}
+body{
+	line-height: 1.7;
+}
+header{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+.banner {
+	background-image: url(https://i.picsum.photos/id/866/2000/200.jpg?hmac=adbngrUI4-Yk75e4MOpKu5j6HL09VDdCLt6yWyjZmsw) ;
+	background-position: center;
+	text-align: center;
+	font-size: 40px;
+	padding: 20px;
+	border-radius: 10px;
+}
+nav{
+	position: relative;
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+nav > a{
+	width: 10%;
+}
+nav > a > img{
+	object-fit: cover;
+	width: 100%;
+}
+nav > ul{
+	width: 95%;
+	display: flex;
+	justify-content: space-around;
+}
+nav > ul > li{
+	list-style-type: none;
+	background-color: lightblue;
+	padding: 10px 30px;
+	border-radius: 20px;
+}
+nav > ul > li:hover{
+	border: 6px solid rgb(98, 193, 225);
+	cursor: pointer;
+}
+nav > ul > li > a{
+	text-decoration: none;
+	color: midnightblue;
+	font-size: 16px;
+}
+nav > ul > li > a:visited{
+	color: black;
+}
+nav > ul > li > a:hover{
+	font-weight: bold;
+}
+nav > ul > li > a:active{
+	color: blue;
+}
+.main_content{
+	position: relative;
+	left: 0;
+	width: 70%;
+	padding: 20px;
+}
+.main_content > .topic{
+	text-align: center;
+	margin: 30px;
+}
+.main_content > hr{
+	height: 5px;
+	background-color:rgb(124, 205, 232);
+}
+#task > h2{
+	text-align: center;
+	margin: 30px;
+}
+
+
+#task > p > img{ 
+	border-radius: 10px;
+	width: 300px;
+	height: 180px;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+#task a[href="#requirements"], #requirements a[href="#submission"], #submission a[href="#grading"], #deadline a[href="#"]{
+	font-size: 18px;
+	color: darkviolet;
+}
+#requirements{
+	clear: left;
+	clear: top;
+}
+#requirements > h2{
+	text-align: center;
+	margin: 30px;
+}
+#requirements ul > li{
+	list-style-type: none;
+	margin: 15px;
+}
+#requirements ul:nth-of-type(1) > li::before{
+	content: "\263B";
+	font-size: 25px;
+	color: midnightblue;
+	margin-right: 20px;
+}
+#requirements ul:nth-of-type(2) > li::before{
+	content: "\261D";
+	font-size: 25px;
+	color: midnightblue;
+	margin-right: 20px;
+}
+#requirements ul:nth-of-type(3) > li::before{
+	content: "\261E";
+	font-size: 25px;
+	color: midnightblue;
+	margin-right: 20px;
+}
+#submission > h2{
+	text-align: center;
+	margin: 30px;
+}
+#submission > h3{
+	text-align: center;
+	margin: 30px;
+}
+#submission > p > img{
+	width: 400px;
+	height: 300px;
+	margin-top: 20px;
+	border-radius: 10px;
+	float: left;
+	margin-bottom: 30px;
+	margin-right: 50px;
+}
+#submission ul > li{
+	padding: 30px;
+	list-style-type: none;
+}
+#submission ul > li::before{
+	content: "\2665";
+	font-size: 25px;
+	color: red;
+	margin-right: 20px;
+}
+#grading{
+	clear: left;
+	clear: top;
+}
+#submission a[href="#"]{
+	font-size: 18px;
+	color: green;
+}
+#grading > h2{
+	text-align: center;
+	margin: 30px;
+}
+table{
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 1px black solid;
+	border-collapse: collapse;
+	border-radius: 10px;
+	padding: 20px;
+}
+th, td{
+	padding: 10px 30px;
+	border: 1px black solid;
+}
+aside{
+	position: absolute;
+	left: 72%;
+	top: 30vh;
+	width: 17%;
+	font-size: 15px;
+}
+aside > h3{
+	text-align: center;
+}
+#deadline{
+	background-color: white;
+}
+#deadline > h4{
+	text-align: center;
+}
+aside article:nth-of-type(1), aside article:nth-of-type(2), aside article:nth-of-type(3){
+	background-color: rgb(212, 227, 233);
+	padding: 20px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+footer{
+	background-color: rgb(212, 227, 233);
+	margin-top: 20px;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 10px;
+}
+footer > .contacts{
+	display: flex;
+}
+iframe{
+	width: 300px;
+	height: 300px;
+	margin: 30px;
+	border-radius: 20px;
+}
+footer > .contacts > div:nth-of-type(1){
+	align-self: center;
+}
+footer > .contacts > div > h5{
+	text-align: center;
+	font-size: 18px;
+}
+footer > .contacts > div > p{
+	padding: 0px 50px;
+}
+footer ul > li > a{
+	color: midnightblue;
+	text-decoration: none;
+}
+footer ul > li > a:visited{
+	color: black;
+}
+footer ul > li > a:hover{
+	font-weight: bold;
+}
+footer ul > li > a:active{
+	color: blue;
+}
+
