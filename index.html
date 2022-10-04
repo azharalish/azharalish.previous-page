@@ -1,24 +1,36 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
+  <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="mystyle_devices.css">
   <title>CSS Design</title>
 </head>
 <body>
   <!-- HEADER -->
+  <div class="container">
   <header>
     <div class="banner">Web Programming...</div>
   </header>
 
   <!-- Navbar -->
-  <nav>
+  <nav class="navigation">
       <a class="logo" href="#">
         <img src="https://thumbs.dreamstime.com/b/html-css-js-icon-set-web-development-logo-icon-set-html-css-javascript-programming-symbol-html-css-js-icon-set-web-178080904.jpg" alt="logo" width="80px" height="80px">
       </a>
+      <!-- <div class="navigation_links">
+         <a class="active" href="#task">Task</a>
+         <a href="#requirements">Requirements</a>
+         <a href="#submission">Submission</a>
+         <a href="#grading">Grading</a>
+         <a href="#deadline">Deadline</a>
+       <a href="#">SignIn</a>
+      </div> -->
       <ul class="menu">
         <li><a class="active" href="#task">Task</a></li>
         <li><a href="#requirements">Requirements</a></li>
@@ -292,32 +304,35 @@
           </iframe>
       </div>
     </div>
-    <div class="categories">
-      <h5>Top 10 Categories</h5>
-      <ul>
-        <li><a href="#">Category 1</a></li>
-        <li><a href="#">Category 2</a></li>
-        <li><a href="#">Category 3</a></li>
-        <li><a href="#">Category 4</a></li>
-        <li><a href="#">Category 5</a></li>
-        <li><a href="#">Category 6</a></li>
-        <li><a href="#">Category 7</a></li>
-        <li><a href="#">Category 8</a></li>
-        <li><a href="#">Category 9</a></li>
-        <li><a href="#">Category 10</a></li>
-      </ul>
-    </div>
-    <div class="quick_links">
-      <h5>Quick Links</h5>
-      <ul>
-        <li><a href="#">Item1</a></li>
-        <li><a href="#">Item2</a></li>
-        <li><a href="#">Item3</a></li>
-        <li><a href="#">Item4</a></li>
-        <li><a href="#">Item5</a></li>
-        <li><a href="#">Item6</a></li>
-      </ul>
+    <div class="list_of_something">
+      <div class="categories">
+        <h5>Top 10 Categories</h5>
+        <ul>
+          <li><a href="#">Category 1</a></li>
+          <li><a href="#">Category 2</a></li>
+          <li><a href="#">Category 3</a></li>
+          <li><a href="#">Category 4</a></li>
+          <li><a href="#">Category 5</a></li>
+          <li><a href="#">Category 6</a></li>
+          <li><a href="#">Category 7</a></li>
+          <li><a href="#">Category 8</a></li>
+          <li><a href="#">Category 9</a></li>
+          <li><a href="#">Category 10</a></li>
+        </ul>
+      </div>
+      <div class="quick_links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#">Item1</a></li>
+          <li><a href="#">Item2</a></li>
+          <li><a href="#">Item3</a></li>
+          <li><a href="#">Item4</a></li>
+          <li><a href="#">Item5</a></li>
+          <li><a href="#">Item6</a></li>
+        </ul>
+      </div>
     </div>
   </footer>
+</div>
 </body>
 </html>
